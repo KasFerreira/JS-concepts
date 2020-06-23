@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Repetição, intervalo e timout</title>
+</head>
+<body>
+    <script>/*
+        //Estrutura de repetição: For, While
+        //for(var i= 0; i<100; i++){    //Valor inicial, condição, incremento
+            console.log(i)
+        }
+
+
+        //while
+        var j= 0     // declaro a variavel antes
+        while(j<=100){  // condição
+            console.log(j)
+            j++   // n esquecer do incremento
+        }
+*/
+        // 
+        function exibeAlgo(){
+            console.log('Hello World')
+        }
+
+        setInterval(exibeAlgo,1000) // Não usa o exibeAlgo(), pois executaria ali já, então passa sem aspas para ir como parametro
+
+        setTimeout(exibeAlgo,5000)
+
+
+
+
+    </script>
+    
+</body>
+</html>
