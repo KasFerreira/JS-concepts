@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Referenciando elementos do DOM</title>
+</head>
+<body>
+    <div id ="app"> 
+        <input type="text" name="nome" id="nome"/>
+        <button class = "botao">Adicionar</button>
+</div>
+        
+
+
+    <script>
+        // Formas...
+        var inputElement= document.getElementById('nome') // Pelo getElementByID
+        var inputElement = document.getElementsByTagName('input')[0]// Sempre retorna um vetor, pois não há como garantir que o resultado será único.(usar[])
+        
+    </script>
+    
+</body>
+</html>
