@@ -16,7 +16,10 @@
         // Formas...
         var inputElement= document.getElementById('nome') // Pelo getElementByID
         var inputElement = document.getElementsByTagName('input')[0]// Sempre retorna um vetor, pois não há como garantir que o resultado será único.(usar[])
-        var inputElement = document.getElementsByClassName('')
+        var inputElement = document.getElementsByClassName('botao')
+        var inputElement = document.querySelector('body div#app input') // Permite percorrer pela Dom até encontrar o elemento, podendo simplificar tirando o Body
+        var inputElement = document.querySelector('input[name=nome')//Posso encontrar o elemento a partir de atributos tbm. O QS só retorna um elemento, para todos, usar querySelectorAll
+
     </script>
     
 </body>
