@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   
+    <title>Curso JS - FUNções</title>
+</head>
+<body>
+    <script>
+ // Funções...         
+        function soma(numero1,numero2){
+            var resultado = numero1 +numero2 // var resultado somente vale em seu escopo
+            return resultado
+
+        }
+        
+        var resultado = soma(1,2) // Por isso é necessário declarar em outro escopo
+        console.log(resultado)
+ // Condicionais ...
+        function retornaSexo(sexo){
+            //M, F
+            // Masculino, Feminino
+
+            if (sexo === 'M'){
+                return 'Masculino'
+
+            }else if(sexo === 'F')  {
+                return 'Feminino'
+
+            }else{
+                return 'Outro'
+            }
+        }
+
+        var resultado = retornaSexo('M')
+        console.log(resultado)
+
+
+ // Switch Case
+        function retornaSexo(sexo){
+            //M, F
+            // Masculino, Feminino
+            switch(sexo){
+                case 'M':
+                    return 'Masculino'
+                case 'F': 
+                    return 'Feminino' 
+                default:
+                    return  'Outro'           
+            }
+        }
+
+
+    </script>
+</body>
+</html>
