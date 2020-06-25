@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Curso JS</title>
+</head>
+<body>
+    <div id="app">
+
+
+
+    </div>
+
+    <script>
+        var link = document.createElement('a');
+        link.setAttribute('href','http://www.google.com');
+        link.setAttribute('title','Google site');
+        
+        var text =document.createTextNode('Acessar site');
+        link.appendChild(text);
+
+        var containerElement = document.querySelector('#app');
+        containerElement.appendChild(link);
+
+        
+    </script>
+</body>
+</html>
